@@ -105,3 +105,16 @@ body {
     text-align: justify;
   }
 
+
+
+
+  /*Блок з купівлею та відбраженням */
+
+  .site-footer p {
+    border:1px solid red  ;
+    padding: 10px 20px;
+    border-radius: 10px 8px;
+    background-color: burlywood;
+    cursor: pointer;
+  }
+
