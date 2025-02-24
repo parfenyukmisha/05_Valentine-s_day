@@ -4,7 +4,7 @@ body {
     font-size: 18px;
     line-height: 18px;
     color: #000000;
-    background: #ffffff url("img/serdechki-on-1.webp") no-repeat 50% 0;
+    background: #e67f7f url("../img/serdechki-on-1.webp") no-repeat 50% 0;
   }
   
   h1 {
@@ -58,17 +58,17 @@ body {
   
   .feature-kitten {
     padding-top: 60px;
-    background-image: url("img/heart.png");
+    background-image: url("../img/heart.png");
 }
   
   .feature-cat {
     padding-top: 60px;
-    background-image: url("img/giftbox.png");
+    background-image: url("../img/giftbox.png");
   }
   
   .feature-train {
     padding-top: 60px;
-    background-image: url("img/cupid.png");
+    background-image: url("../img/cupid.png");
   }
   
   .skills-list {
@@ -81,3 +81,27 @@ body {
     justify-content: space-between;
     color: #575353;
   }
+
+  .wishes{
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  button{
+    background: rgba(255, 0, 0, 0.61);
+    color: black;
+    border: 5px solid;
+    border-radius: 100px;
+    height: 50px;
+    width: 500px;
+    cursor: pointer;
+  }
+
+  #p-love-wishes {
+    font-size: 150px;
+    line-height: 28px;
+    line-height: 40px;
+    color: rgba(255, 0, 0, 0.678);
+    text-align: justify;
+  }
+
